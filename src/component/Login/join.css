@@ -1,0 +1,145 @@
+.singup__box{
+    position: absolute;
+    border: 1px solid black;
+    height: 150%;
+    width: 52%;
+    margin:10% 17% 50% 28%;
+}
+.singup__title{
+    position: absolute;
+    margin-left:  290px;
+
+}
+.singup__state{
+    margin-top: 18%;
+    margin-left:  140px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 350px;
+    height: 60px;
+    font-size: 15px;
+    padding-left: 10%;
+}
+.singup__state1{
+    margin-top: 3%;
+    margin-left:  140px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 350px;
+    height: 60px;
+     font-size: 15px;
+     padding-left: 10%;
+}
+.email_sign{
+
+  margin-top: 1%;
+  margin-left: 65%;
+  border: 1px solid rgba(0,0,0,1);
+    background-color:white;
+}
+.singup__state2{
+    margin-top: 15%;
+    margin-left:  140px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 350px;
+    height: 60px;
+    font-size: 15px; 
+    padding-left: 10%;
+}
+.singup__state3{
+    margin-top: 0%;
+    margin-left:  140px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 350px;
+    height: 60px;
+     font-size: 15px;
+     padding-left: 10%;
+}
+.singup__state4{
+    margin-top: 0%;
+    margin-left:  140px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 350px;
+    height: 60px;
+     font-size: 15px;
+     padding-left: 10%;
+}
+.cert__button{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -12%;
+    border: 1px solid rgba(0,0,0,1);
+    background-color:white;
+}   
+.cert__button:hover{
+    background-color: black;
+    color: white;
+   
+}   
+.nationality-options {
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-top: 0%;
+    margin-left:  140px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 350px;
+    height: 60px;
+     font-size: 15px;
+     padding-left: 10%;
+  }
+  
+  .nationality-option {
+ 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 12px;
+    width: 70px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 12px;
+    cursor: pointer;
+    margin-right: 10%;
+   
+  }
+  .korean-option{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 12px;
+    width: 70px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 12px;
+    cursor: pointer;
+    margin-right: 10%;
+   
+  }
+
+  
+  .nationality-option.selected {
+    background-color: black;
+    color: #fff;
+  }
+  .ON{
+    background-color:black;
+    color: #fff;
+  }
+  .signup__button{
+    position: absolute;
+    top:90%;
+    left:42%;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+   cursor: pointer;
+   font-weight: 500;
+  }
+ 
+  

@@ -2,7 +2,10 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Login from '../src/component/Login';
+import Login from '../src/component/Login/Login';
+import Join from './component/Login/join';
+import Check from './component/Login/chekin';
+
 
 import UserMain from '../src/component/User/UserMain/UserMain';
 import UserInfo from './component/User/UserInfo/UserInfo';
@@ -16,11 +19,14 @@ import CoMain from './component/Co/CoMain/CoMain';
 import CoTag from './component/Co/CoTag/CoTag';
 import CoUp from './component/Co/CoUp/CoUp';
 
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' Component={Login}/>
+        <Route path='/Join' Component={Join}/>
+        <Route path='/Check' Component={Check}/>
         <Route path='/UserMain' Component={UserMain}/>
         <Route path='/UserInfo' Component={UserInfo}/>
         <Route path='/UserPort' Component={UserPort}/>

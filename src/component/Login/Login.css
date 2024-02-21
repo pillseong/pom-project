@@ -1,0 +1,45 @@
+.Login__box{
+position: absolute;
+border: 1px solid black;
+height: 330px;
+margin:10% 20% 50% 40%;
+}
+.Login__title{
+    position: relative;
+    margin-left: 132px;
+}
+input{
+    height: 20px;
+    margin-top:12%;
+    margin-left: 22%;
+}
+.Pw__input{
+    
+    margin-top: 5%;
+    margin-right: 10%;
+
+}
+.Login__button{
+    margin-top: 18%;
+    margin-left: 31%;
+    height: 10%;
+     width: 30%;
+     text-align: center;
+
+}
+.Join{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 38%;
+    
+    
+}
+.Join:hover{
+    text-decoration: underline;
+}
+.check__box{
+    margin-top: -8%;
+}
