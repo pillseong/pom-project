@@ -1,18 +1,18 @@
 .singup__box{
     position: absolute;
     border: 1px solid black;
-    height: 150%;
+    height: 165%;
     width: 52%;
     margin:10% 17% 50% 28%;
 }
 .singup__title{
     position: absolute;
-    margin-left:  290px;
+    margin-left:  43%;
 
 }
 .singup__state{
     margin-top: 18%;
-    margin-left:  140px;
+    margin-left:  23%;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.3);
     width: 350px;
@@ -21,8 +21,8 @@
     padding-left: 10%;
 }
 .singup__state1{
-    margin-top: 3%;
-    margin-left:  140px;
+    margin-top: -0%;
+    margin-left:  23%;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.3);
     width: 350px;
@@ -31,15 +31,15 @@
      padding-left: 10%;
 }
 .email_sign{
+position: absolute;
+margin-top: 23%;
 
-  margin-top: 1%;
-  margin-left: 65%;
   border: 1px solid rgba(0,0,0,1);
     background-color:white;
 }
 .singup__state2{
-    margin-top: 15%;
-    margin-left:  140px;
+    margin-top: 5%;
+    margin-left:  23%;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.3);
     width: 350px;
@@ -49,7 +49,7 @@
 }
 .singup__state3{
     margin-top: 0%;
-    margin-left:  140px;
+    margin-left:  23%;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.3);
     width: 350px;
@@ -59,7 +59,7 @@
 }
 .singup__state4{
     margin-top: 0%;
-    margin-left:  140px;
+    margin-left: 23%;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.3);
     width: 350px;
@@ -67,10 +67,41 @@
      font-size: 15px;
      padding-left: 10%;
 }
+.addr_1{
+  margin-top: 10%;
+  margin-left:  23%;
+  border-radius: 30px;
+  border: 1px solid rgba(0,0,0,0.3);
+  width: 350px;
+  height: 60px;
+   font-size: 15px;
+   padding-left: 10%;
+}
+.addr_2{
+  margin-top: 0%;
+  margin-left:  23%;
+  border-radius: 30px;
+  border: 1px solid rgba(0,0,0,0.3);
+  width: 350px;
+  height: 60px;
+   font-size: 15px;
+   padding-left: 10%;
+}
+.addr_3{
+  margin-top: 0%;
+  margin-left: 23%;
+  border-radius: 30px;
+  border: 1px solid rgba(0,0,0,0.3);
+  width: 350px;
+  height: 60px;
+   font-size: 15px;
+   padding-left: 10%;
+
+}
 .cert__button{
     position: absolute;
-    margin-top: 10%;
-    margin-left: -12%;
+    margin-top: 4.6%;
+    margin-left: 0%;
     border: 1px solid rgba(0,0,0,1);
     background-color:white;
 }   
@@ -85,7 +116,7 @@
     font-size: 15px;
     margin-top: 10px;
     margin-top: 0%;
-    margin-left:  140px;
+    margin-left:  23%;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.3);
     width: 350px;
@@ -142,4 +173,51 @@
    font-weight: 500;
   }
  
-  
+  .emailerror__text{
+    margin-top: 2%;
+   color: red;
+   font-weight: 50%;
+   margin-left: 25%;
+  }
+  .pwerror__text{
+    margin-top:1%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
+  .nameerror__text{
+    margin-top: 2%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
+  .nickerror__text{
+    margin-top: 2%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
+  .brderror_text{
+    margin-top: 2%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
+  .sexerror__text{
+    margin-top: 2%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
+  .typerror__text{
+    margin-top: 2%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
+  .phoneerror__text{
+    margin-top: 2%;
+    color: red;
+    font-weight: 50%;
+    margin-left: 25%;
+  }
